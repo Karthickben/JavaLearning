@@ -9,27 +9,27 @@ public class Practice1 {
 	 */
 	public static void main(String[] args) {
 
-		/*
-		 * String S1 = new String("INDIA"); S1.concat("IS MY COUNTRY"); String
-		 * S2=S1.concat(" IS MY COUNTRY");
-		 * 
-		 * System.out.println("S1: "+S1); System.out.println("S2: "+S2);
-		 * 
-		 * StringBuilder SB1= new StringBuilder("INDIA"); SB1.append(" IS MY COUNTRY");
-		 * 
-		 * StringBuilder SB2= new StringBuilder("INDIA"); SB2.append(" IS MY COUNTRY");
-		 * 
-		 * System.out.println("SB1:"+SB1);
-		 * 
-		 * System.out.println(S2.equals(SB1.toString()));
-		 * System.out.println("VALIDATION: "+SB1.equals(SB2));
-		 * System.out.println(SB1==SB2);
-		 * 
-		 * String S3="INDIA IS MY COUNTRY"; String S4="INDIA IS"+" MY COUNTRY"; String
-		 * S5="INDIA IS"; String S6=S5+" MY COUNTRY"; System.out.println(S4);
-		 * System.out.println(S2==S3); System.out.println(S4==S3);
-		 * System.out.println(S4.equals(S6)); System.out.println(S4==S6);
-		 */
+		//SCP and Heap
+		  String S1 = new String("INDIA"); S1.concat("IS MY COUNTRY"); String
+		 S2=S1.concat(" IS MY COUNTRY");
+		 
+		  System.out.println("S1: "+S1); System.out.println("S2: "+S2);
+		  
+		  StringBuilder SB1= new StringBuilder("INDIA"); SB1.append(" IS MY COUNTRY");
+		 
+		 StringBuilder SB2= new StringBuilder("INDIA"); SB2.append(" IS MY COUNTRY");
+		 
+		 System.out.println("SB1:"+SB1);
+		 
+		 System.out.println(S2.equals(SB1.toString()));
+		 System.out.println("VALIDATION: "+SB1.equals(SB2));
+		 System.out.println(SB1==SB2);
+		 
+		 String S3="INDIA IS MY COUNTRY"; String S4="INDIA IS"+" MY COUNTRY"; String
+		 S5="INDIA IS"; String S6=S5+" MY COUNTRY"; System.out.println(S4);
+		 System.out.println(S2==S3); System.out.println(S4==S3);
+		 System.out.println(S4.equals(S6)); System.out.println(S4==S6);
+		 
 
 		// Constructors
 		String string1 = new String();
@@ -55,7 +55,7 @@ public class Practice1 {
 		String s4 = new String(sbuff);
 		System.out.println(s4);
 		System.out.println("-------------------------------------------------");
-		// METHODS
+		// METHODS,,,,,,,,,,,,,,,,
 
 		String myName = "karthick";
 		String myNickName = "Ben";
